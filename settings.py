@@ -1,5 +1,5 @@
 #Constants
-HEIGHT = WIDTH = 800
+HEIGHT = WIDTH = 650
 DISPLAY = (HEIGHT, WIDTH)
 TITLE = "Chess Card Game"
 FPS = 60
