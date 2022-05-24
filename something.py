@@ -1,4 +1,3 @@
-from tkinter import W
 import pygame as pg
 from settings import *
 
@@ -22,5 +21,5 @@ while running:
             pg.quit()
 
     screen.fill(BLACK)
-    pg.draw.rect(screen, RED, (WIDTH/2, HEIGHT/2, 64, 64))
+    pg.draw.rect(screen, RED, pg.Rect(WIDTH/2, HEIGHT/2, 64, 64))
     pg.display.flip()
